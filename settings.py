@@ -2,7 +2,7 @@
 from load_images_and_levels import load_level,load_img
 
 #chargement du niveau courant,la valeur de (x) indique le numéro du niveau à charger  
-level=load_level(x=1)
+level=load_level(x=4)
 #chargement des images 
 images=load_img()
 #configuration de l'écran d'affichage 
