@@ -48,6 +48,17 @@ Arrow keys → scroll map
 UP/DOWN → change level number
 Save/Load buttons at the bottom
 
+## Screenshots
+
+| Level Editor (design your own worlds!) | In-Game (classic Mario vibes with ramps!) |
+|----------------------------------------|-------------------------------------------|
+| ![Level Editor](screenshots/level_editor_1.png) | ![Gameplay 1](screenshots/gameplay_1.png) |
+| ![Level Editor – building a slope](screenshots/level_editor_2.png) | ![Gameplay 2](screenshots/gameplay_2.png) |
+
+> The red rectangle is your Mario — easy to spot while testing physics!  
+> Full level editor included: draw tiles, save/load levels, infinite horizontal worlds.
+
+
 ### Folder Structure
 
 ```
