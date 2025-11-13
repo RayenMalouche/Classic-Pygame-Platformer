@@ -47,26 +47,17 @@ python main_game.py
 
 ### How to Run Different Levels
 
-Your game loads levels from level{X}_data.csv files.
+You can now directly specify the level number when launching the game:
 
-#### Method 1: Quick Change (Recommended)
-
-Open `settings.py`
-Change this line:
-
-```python
-level = load_level(x=1)   # ← change the number!
+```bash
+python main_game.py 0   # Run level 0
+python main_game.py 1   # Run level 1 (default)
+python main_game.py 4   # Run level 4
 ```
 
-Examples:
+If no number is provided, the game defaults to level 1.
 
-* Level 0 → x=0
-* Level 1 → x=1 (default)
-* Level 4 → x=4
-
-Save → Run `python main_game.py`
-
-#### Method 2: Use the Level Editor (Best for creating new levels)
+### Use the Level Editor (Best for creating new levels)
 
 ```bash
 python level_creator.py
@@ -81,7 +72,7 @@ Right Click → Erase tile
 SAVE → Creates `level{X}_data.csv`
 LOAD → Loads existing level
 
-💡 **Pro Tip:** Build Level 2 → Save → Edit `settings.py` → `x=2` → Play your new level!
+💡 **Pro Tip:** Build Level 2 → Save → Run `python main_game.py 2` → Play your new level!
 
 ### Level File Rules
 
