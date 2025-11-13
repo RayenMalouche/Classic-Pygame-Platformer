@@ -2,7 +2,9 @@
 from load_images_and_levels import load_level,load_img
 
 #chargement du niveau courant,la valeur de (x) indique le numéro du niveau à charger  
-level=load_level(x=4)
+import sys
+level_num = int(sys.argv[1]) if len(sys.argv) > 1 else 1  # Default level 1
+level = load_level(x=level_num)
 #chargement des images 
 images=load_img()
 #configuration de l'écran d'affichage 
